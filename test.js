@@ -30,6 +30,10 @@ if (birthday ===25) {
 }
 console.log(discount);
 
+let birthday1 = 25;
+let discount1 = birthday1 === 25 ? "30%" : "10%";
+console.log(discount1);
+
 console.log(true ?? false);
 console.log(false ?? true);
 console.log(null ?? true);
@@ -42,4 +46,15 @@ if (salary < 1000) {
     console.log ("better");
 } else{
     console.log("super");
+}
+
+let sex = "male";
+let birthday2 = 25;
+let discount2;
+if ( sex === "male") {
+    discount2 = birthday2 === 25 ? "30%" : "10%";
+} else if ( sex === "female") {
+ discount2 = birthday2 === 19 ? "30%" : "10%"; 
+} else {
+    discount2 = birthday2 === 7 ? "10%" : "5%";
 }
