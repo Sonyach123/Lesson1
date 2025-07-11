@@ -1,8 +1,8 @@
-// var x;
-// var n = null;
-// var res = false | n || x || "prosto ryadok" || (x=5) | true;
-// console.log(res);
-// console.log(x);
+var x;
+var n = null;
+var res = false | n || x || "prosto ryadok" || (x=5) | true;
+console.log(res);
+console.log(x);
 
 // console.log(!true);
 // console.log(!false);
@@ -58,3 +58,39 @@ if ( sex === "male") {
 } else {
     discount2 = birthday2 === 7 ? "10%" : "5%";
 }
+
+var a = 8;
+switch (a) {
+    case 1:
+        console.log ("var 1");
+        break;
+    case 2:
+        console.log ("var2");
+        break;
+    default:
+        console.log("default")
+}
+
+if (true) {
+    let ax =5;
+}
+let ax =5; 
+
+
+var num= 10;
+if (number % 10 ===0){
+    console.log ("it is " + num + " devided on 2");
+} else{
+    console.log ("is is " + num + " not devided on 2")
+}
+
+
+var y = 0;
+while (y < 10) {
+    console.log ("i=" + y++);
+}
+
+var y1 = 0;
+while (y1 < 15) { y1++;
+}
+console.log("y1=", y1)
