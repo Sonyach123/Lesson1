@@ -69,45 +69,6 @@
 // }
 // hello("Tanya", "Kuhii", 34);
 
-// function hello1(name, surname, age = 12){
-//     let start = "Hello ";
-//     name = name || "John Snow "
-//     if (surname) start+= name + "  " + surname + age;
-//     else start += name + age;
-//     return start;
-// }
-// console.log(hello1());
-// console.log(hello1("Tanya "));
-// console.log(hello1("Tanya", "Kuhii "));
-
-// function accelerateCar(callback,maxSpeed){
-//     let carSpeed = 0;
-//     while (carSpeed <=maxSpeed){
-//         callback(carSpeed++);
-//     }  
-// }
-// accelerateCar(console.log, 200);
-
-const sayHello = (name) => `Hello, ${name}!`;
-const sayHello1 = function(name) { 
-    return `Hello, ${name}!`; 
-};
-
-console.log(sayHello("Tanya"));
-console.log(sayHello1("Tanya"));
-
-
-// let a =5;
-// function squareAreaCalc (side, f,r,t,y,u){
-//     return side *side;
-// }
-// console.log(squareAreaCalc(a));
-
-// function hello (name, surname, age){
-//     console.log("Hello " + name + " " + surname + ", you are " + age );
-// }
-// hello("Tanya", "Kuhii", 34);
-
 function hello1(name, surname, age = 12){
     let start = "Hello ";
     name = name || "John Snow "
