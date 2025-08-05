@@ -17,6 +17,7 @@
 // ;}
 // console.log(b)
 
+<<<<<<< HEAD
 // pow();
 // let trainfunction = function(){
 //     console.log("train function works");
@@ -79,3 +80,45 @@ function hello1(name, surname, age = 12){
 console.log(hello1());
 console.log(hello1("Tanya "));
 console.log(hello1("Tanya", "Kuhii "));
+=======
+pow();
+let trainfunction = function(){
+    console.log("train function works");
+}
+trainfunction();
+
+function squarecalculation1(arg1,arg2){
+    
+}
+pow();
+function pow(){
+    console.log("hi from function")
+}
+pow();
+
+var ext = "outside text";
+
+function lessonexample(){
+    var inner = "inner function text";
+    console.log("function sees outside: " + ext);
+    console.log("function sees inside: " + inner);
+}
+lessonexample();
+
+function varchangessduringfunction(){
+    console.log("before change: " + myVar);
+    myVar = "I am this";
+    console.log("after change: " + myVar);
+    var myVar;
+} 
+varchangessduringfunction();
+let x;
+function hometask(base,limit){
+    for (let x = 0; x < limit; x++) {
+     base *= base;
+     console.log("inside cycle x = " + x);   
+    }
+    console.log("outside cycle x = " + x);
+}
+hometask(2, 5);
+>>>>>>> 2f0608f0d4d9d4a642535c5b17fbeaec00be6177
