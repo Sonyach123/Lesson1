@@ -48,7 +48,7 @@ function varchangessduringfunction(){
     var myVar;
 } 
 varchangessduringfunction();
-
+let x;
 function hometask(base,limit){
     for (let x = 0; x < limit; x++) {
      base *= base;
