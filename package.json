@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "number-precision": "^1.6.0"
+  }
+}

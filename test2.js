@@ -11,3 +11,10 @@ console.log(message);
 
 message = "other";
 console.log(message);
+
+//     \b - backspace
+//     \t - tab
+//     \n - new line
+//     \r - carriage return
+//     \f - form feed
+//     \u00A9 - unicode character
