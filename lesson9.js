@@ -197,3 +197,22 @@ var resss2 = arr13.map((v) =>{
 });
 console.log(arr13);
 console.log(resss2);
+
+//
+
+var arrey00 = [2, 8, 4, 12, 34, 3, 51];
+var result00 = arrey00.filter(checker);
+console.log("arrey = " , arrey00);
+console.log("result=" , result00);
+ 
+function checker(item){
+    return item > 2;
+};
+
+//
+var arrey01 = [2, 8 ,4, -2, 34, 3, 51];
+console.log("arrey01="+ arrey01);
+
+console.log("is every positive=", arrey01.every(checker));
+console.log("is some positive=", arrey01.some(checker));
+
